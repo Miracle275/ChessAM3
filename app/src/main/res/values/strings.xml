@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChessAM</string>
+    <string name="str_done_btn">DONE</string>
 </resources>

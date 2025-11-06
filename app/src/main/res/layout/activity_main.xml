@@ -10,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="The Queen is the most powerful piece in the board?"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:id="@+id/qTV"
+        />
 
 
 

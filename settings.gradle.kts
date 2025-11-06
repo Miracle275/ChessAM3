@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ChessAM"
 include(":app")
- 
+include(":app:lib")
