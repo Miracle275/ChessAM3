@@ -27,7 +27,7 @@ public class ScoreActivity extends AppCompatActivity {
         saysSCORETV = (TextView) findViewById(R.id.saysSCORE);
         scoreNumberTV = (TextView) findViewById(R.id.scoreTV);
         score = intent.getIntExtra("score", 0);
-        scoreNumberTV .setText("You got" + score + "question(s) so far");
+        scoreNumberTV .setText("You got a " + score + "/10 ");
 
     }
     public void composeEmail(String[] addresses, String subject) {
