@@ -4,13 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my quiz, What is your name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        />
+
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="Hello"/>
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextBTN"
+        />
+
 
 
 
