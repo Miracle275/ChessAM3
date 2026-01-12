@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/playablechessboardcolored3"
+    >
 
     <TextView
         android:layout_width="match_parent"
@@ -12,6 +14,7 @@
         android:text="The Queen is the most powerful piece in the board?"
         android:textSize="24sp"
         android:id="@+id/qTV"
+        android:textColor="@color/charcoal"
         />
 
 
@@ -21,6 +24,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
+
         >
         <Button
             android:id="@+id/trueBTN"
@@ -34,7 +38,8 @@
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:text="False"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            />
 
     </LinearLayout>
 
